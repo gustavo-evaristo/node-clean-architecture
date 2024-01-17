@@ -49,13 +49,4 @@ describe("Unit test find product use case", () => {
       })
     ).rejects.toThrow("Product not found");
   });
-
-  // it("should thrown an error when price is missing", async () => {
-  //   await expect(
-  //     createProductUseCase.execute({
-  //       ...input,
-  //       price: -1,
-  //     })
-  //   ).rejects.toThrow("Price must be greater than zero");
-  // });
 });
