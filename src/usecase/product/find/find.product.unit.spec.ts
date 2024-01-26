@@ -1,5 +1,4 @@
 import Product from "../../../domain/product/entity/product";
-import ProductRepository from "../../../infrastructure/product/repository/sequelize/product.repository";
 import FindProductUseCase from "./find.product.usecase";
 
 const input = {
